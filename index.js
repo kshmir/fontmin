@@ -143,6 +143,7 @@ module.exports = Fontmin;
     'glyph',
     'ttf2eot',
     'ttf2woff',
+    'ttf2woff2',
     'ttf2svg',
     'css',
     'svg2ttf',

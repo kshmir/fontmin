@@ -1,7 +1,7 @@
 {
   "name": "fontmin",
   "version": "0.9.0-alpha-3",
-  "description": "Minify font seamlessly, font subsetter, webfont (eot, woff, svg) converter.",
+  "description": "Minify font seamlessly, font subsetter, webfont (eot, woff, woff2, svg) converter.",
   "main": "index.js",
   "keywords": [
     "font",
@@ -19,6 +19,7 @@
     "svg",
     "ttf2eot",
     "ttf2woff",
+    "ttf2woff2",
     "ttf2svg",
     "svg2ttf",
     "css",
@@ -45,6 +46,7 @@
     "lodash": "^3.2.0",
     "meow": "^3.0.0",
     "pako": "^0.2.6",
+    "ttf2woff2": "^2.0.1",
     "replace-ext": "0.0.1",
     "stream-combiner": "^0.2.1",
     "through2": "^0.6.1",
@@ -55,6 +57,7 @@
     "gulp-clean": "^0.3.1",
     "is-eot": "^1.0.0",
     "is-woff": "^1.0.1",
+    "is-woff2": "^1.0.0",
     "mocha": "^2.1.0"
   }
 }
