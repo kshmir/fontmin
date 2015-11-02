@@ -23,8 +23,6 @@ function compileTtf(buffer, options, cb) {
     }
 
     try {
-      console.log(buffer);
-      console.log("ABOUT TO CONVERT WOFF2");
         output = ttf2woff2(
                 buffer
             )
